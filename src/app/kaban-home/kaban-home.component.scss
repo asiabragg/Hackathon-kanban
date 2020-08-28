@@ -1,0 +1,25 @@
+h1{
+    margin-top: 10vw;
+    text-align: center;
+}
+
+section{
+    display:grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "todoName   todoNameDisplay"
+    "todoDescription   todoDescriptionDisplay"
+    "todoCategory  todoCategoryDisplay"
+    "submitButton  submitButton";
+}
+
+
+
+button{
+    margin-left:30vw;
+    
+}
+
